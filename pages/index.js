@@ -1,5 +1,8 @@
 import Head from "next/head";
-import TopContainer from "../components/TopContainer";
+import Image from "next/image";
+import Hero from "../components/Hero";
+import Slider from "../components/Slider";
+import { SliderData } from "../components/SliderData";
 
 export default function Home() {
   return (
@@ -7,39 +10,9 @@ export default function Home() {
       <Head>
         <title>Rubi Hospitalar</title>
         <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-          crossorigin="anonymous"
-        />
-        <link
-          rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-          crossorigin="anonymous"
-        ></link>
       </Head>
-
-      <TopContainer />
-
-      <footer className="footer">
-        <h5>Rubi &copy; Hospitalar</h5>
-        <script
-          src="https://unpkg.com/react/umd/react.production.min.js"
-          crossorigin
-        ></script>
-
-        <script
-          src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-          crossorigin
-        ></script>
-
-        <script
-          src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-          crossorigin
-        ></script>
-      </footer>
+      <Hero heading='Bem vindo a Rubi!' message='Conheça nossos produtos'/>
+      <Slider slides={SliderData} />
     </div>
   );
 }
