@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Hero from "../components/Hero";
+import Instagram from "../components/Instagram";
 import Slider from "../components/Slider";
 import { SliderData } from "../components/SliderData";
 
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Hero heading='Bem vindo a Rubi!' message='Conheça nossos produtos'/>
       <Slider slides={SliderData} />
+      <Instagram />
     </div>
   );
 }
