@@ -37,13 +37,13 @@ const Navbar = () => {
                         <Link href='/'>Home</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/focus'>Nosso Foco</Link>
+                        <Link href='/#focus'>Nosso Foco</Link>
                     </li>
                     <li className='p-4'>
                         <Link href='/facilities'>Facilidades</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/store'>Loja Online</Link>
+                        <Link href='https://www.rubihospitalar.com.br'>Loja Online</Link>
                     </li>
                     <li className='p-4'>
                         <Link href='/contact'>Contatos</Link>
@@ -57,19 +57,19 @@ const Navbar = () => {
                 {/*Mobile menu */}
                 <div className={nav ? 'sm:hidden absolute top-0 left-0 right-0 botton-0 flex justify-center items-center w-full h-screen bg-white text-center ease-in duration-300' : 'sm:hidden absolute top-0 left-[-100%] right-0 botton-0 flex justify-center items-center w-full h-screen bg-white text-center ease-in duration-300'}>
                     <ul>
-                        <li className='p-4 text-4xl hover:text-gray-500'>
+                        <li onClick={handleNav}  className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='/'>Home</Link>
                         </li>
-                        <li className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/focus'>Nosso Foco</Link>
+                        <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+                            <Link href='/#focus'>Nosso Foco</Link>
                         </li>
-                        <li className='p-4 text-4xl hover:text-gray-500'>
+                        <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='/facilities'>Facilidades</Link>
                         </li>
-                        <li className='p-4 text-4xl hover:text-gray-500'>
+                        <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='/store'>Loja Online</Link>
                         </li>
-                        <li className='p-4 text-4xl hover:text-gray-500'>
+                        <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='/contact'>Contatos</Link>
                         </li>
                     </ul>
