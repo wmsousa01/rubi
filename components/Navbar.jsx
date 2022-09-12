@@ -1,6 +1,8 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import React, {useState, useEffect} from 'react'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
+import NavLogo from '../public/rubi.svg'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -30,7 +32,15 @@ const Navbar = () => {
     <div style={{backgroundColor: `${color}`}}className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-red-600'>
             <Link href='/'>
-            <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'>Rubi</h1>
+                <a>
+                    <Image
+                        src={NavLogo}
+                        alt='/'
+                        width='170'
+                        height='70'
+                        className='cursor-pointer'
+                    />
+                </a>
             </Link>
                 <ul style={{color: `${textColor}`}} className='hidden sm:flex'>
                     <li className='p-4'>
