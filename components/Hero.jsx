@@ -1,15 +1,27 @@
 import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const Hero = ({heading, message}) => {
   return (
-    <div className='flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img'>
-        {/* Overlay */}
-        <div className='relative h-32 w-32 top-0 left-0 right-0 bottom-0 bg-white/15 z-[2]' />
-        <div className='absolute insert-y-32 left-0 w-70 p-5 text-red-600 z-[2]'>
-            <p className='py-5 text-xl'>{heading}</p>
-            <h2 className='py-5 text-5xl font-bold'>{message}</h2>
-            <button className='px-8 py-2 border'>WhatsApp</button>
+    <div id='\' className="w-full h-screen bg-white">
+    <div className= "p-5 mx-auto lg:flex items-stretch justify-evenly">
+      <div className='mt-20 lg:self-center'>
+          <h2 className='text-5xl sm:text-7xl font-black flex  text-transparent bg-clip-text bg-gradient-to-r from-[#BD0000] to-[#770000]'>{heading}</h2>
+          <h2 className='mt-2 text-2xl sm:text-2xl font-black text-left text-transparent bg-clip-text bg-gradient-to-r from-[#BD0000] to-[#770000]'>{message}</h2>
+          <div className='mt-5 grid grid-cols-2 gap-4'>
+            <button className='p-3'>
+              <Link href='https://wa.link/lmeph0'>Fale Agora</Link>
+            </button>
+            <button className='p-3'>
+              <Link href='https://wa.link/lmeph0'>Como chegar</Link>
+            </button>
+          </div>
         </div>
+        <div className='mt-10 lg:mt-40 flex lg:justify-end self-center'>
+          <Image src='/assets/background.png' alt='Representante' width={500} height={500}/>
+        </div>
+      </div>
     </div>
   )
 }

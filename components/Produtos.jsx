@@ -6,7 +6,7 @@ import ProdutoImg from '../public/assets/pr-img-1.png'
 
 const Skills = () => {
   return (
-    <div id='focus' className='max-w-[1240px] mx-auto'>
+    <div id='focus' className='h-full mx-auto bg-[#B03638] text-white'>
       <h1 className='text-4xl font-bold text-center p-4'>Nosso Foco</h1>
       <h2 className='text-sm text-center p-4'>Temos as melhores opções de produtos hospitalares para sua empresa</h2>
       <div className='relative flex justify-center p-4'></div>
@@ -19,18 +19,26 @@ const Skills = () => {
                     href=""
                     target="_blank"
                   >
-                    <div className="bg-[#B03638] shadow-lg rounded-lg p-4">
-                    <h1 className='text-white'><FaStethoscope /></h1>
-                      <p className="text-lg text-white mt-4 font-semibold">
+                    <div className="bg-white shadow-lg rounded-lg p-4">
+                    <h1 className='text-[#B03638]'><FaStethoscope /></h1>
+                      <p className="text-lg text-[#B03638] mt-4 font-semibold">
                         Cirurgico
                       </p>
+                      <p className="text-sm text-[#B03638] mt-4 font-thin">
+                        As melhores linhas de materiais cirurgicos você encontra aqui
+                      </p>
+                    
+
                     </div>
                   </a>
                   <a>
-                    <div className="bg-[#B03638] shadow-lg rounded-lg p-4 mt-4">
-                    <h1 className='text-white'><FaTeeth /></h1>
-                      <p className="text-lg text-white mt-4 font-semibold">
+                    <div className="bg-white shadow-lg rounded-lg p-4 mt-4">
+                    <h1 className='text-[#B03638]'><FaTeeth /></h1>
+                      <p className="text-lg text-[#B03638] mt-4 font-semibold">
                         Odontologicos
+                      </p>
+                      <p className="text-sm text-[#B03638] mt-4 font-thin">
+                        As melhores linhas de materiais cirurgicos você encontra aqui
                       </p>
                     </div>
                   </a>
@@ -38,10 +46,13 @@ const Skills = () => {
                 <div className="my-4 w-full px-4">
                   <a
                   >
-                    <div className="bg-[#B03638] shadow-lg rounded-lg p-4">
-                      <h1 className='text-white'><FaHeartbeat /></h1>
-                      <p className="text-lg text-white mt-4 font-semibold">
+                    <div className="bg-white shadow-lg rounded-lg p-4">
+                      <h1 className='text-[#B03638]'><FaHeartbeat /></h1>
+                      <p className="text-lg text-[#B03638] mt-4 font-semibold">
                        Estéticos
+                      </p>
+                      <p className="text-sm text-[#B03638] mt-4 font-thin">
+                        As melhores linhas de materiais cirurgicos você encontra aqui
                       </p>
                     </div>
                   </a>

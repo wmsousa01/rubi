@@ -30,12 +30,12 @@ function Footer() {
 				</div>
 				<div className="p-5">
 					<ul>
-						<p className="text-white font-bold text-2xl pb-4">Serviços</p>
+						<p className="text-white font-bold text-2xl pb-4">Empresa</p>
 						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-600 cursor-pointer">
-							Manutenção industrial
+							História
 						</li>
 						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-red-600 cursor-pointer">
-							Caldeiraria
+							Missão
 						</li>
 					</ul>
 				</div>
