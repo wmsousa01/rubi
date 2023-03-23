@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Hero from "../components/Hero";
 import Instagram from "../components/Instagram";
-import ControlledCarousel from "../components/ControlledCarousel"
 import Produtos from '../components/Produtos'
 import FaleAgora from "../components/FaleAgora";
 import SimpleMap from "../components/SimpleMap";
