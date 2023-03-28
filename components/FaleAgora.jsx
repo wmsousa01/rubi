@@ -11,7 +11,7 @@ const FaleAgora = ({heading, message}) => {
           <h2 className='mt-5 text-1xl sm:text-1xl font-light text-left text-transparent bg-clip-text bg-gradient-to-r from-[#BD0000] to-[#770000]'>{message}</h2>
           <div className='mt-5 grid grid-cols-2 gap-4'>
             <button className='p-3'>
-              <Link href='https://wa.link/lmeph0'>Fale Agora</Link>
+              <Link href='https://wa.me/5519996613747'>Fale Agora</Link>
             </button>
           </div>
         </div>

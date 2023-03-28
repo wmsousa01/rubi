@@ -53,7 +53,7 @@ const Navbar = () => {
                         <Link href='/facilities'>Facilidades</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='https://www.rubihospitalar.com.br'>Loja Online</Link>
+                        <Link href='http://loja.rubihospitalar.com.br/'>Loja Online</Link>
                     </li>
                     <li className='p-4'>
                         <Link href='/contact'>Contatos</Link>
