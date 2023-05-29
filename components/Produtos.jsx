@@ -22,7 +22,7 @@ const Skills = () => {
                         Cirurgico
                       </p>
                       <p className="text-sm text-[#B03638] mt-4 font-thin">
-                        As melhores linhas de materiais cirurgicos você encontra aqui
+                      Amplie suas possibilidades com nossa linha de materiais cirúrgicos de alta qualidade.
                       </p>
                     
 
@@ -35,7 +35,8 @@ const Skills = () => {
                         Odontologicos
                       </p>
                       <p className="text-sm text-[#B03638] mt-4 font-thin">
-                        As melhores linhas de materiais cirurgicos você encontra aqui
+                      Temos uma linha completa de produtos odontológicos e estéticos, 
+                      destinados a profissionais exigentes que buscam o melhor para seus pacientes. 
                       </p>
                     </div>
                   </a>
@@ -49,7 +50,7 @@ const Skills = () => {
                        Estéticos
                       </p>
                       <p className="text-sm text-[#B03638] mt-4 font-thin">
-                        As melhores linhas de materiais cirurgicos você encontra aqui
+                      Eleve a qualidade dos seus serviços estéticos com nossos produtos especializados.
                       </p>
                     </div>
                   </a>
