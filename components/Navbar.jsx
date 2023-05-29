@@ -77,7 +77,7 @@ const Navbar = () => {
                             <Link href='/facilities'>Facilidades</Link>
                         </li>
                         <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/store'>Loja Online</Link>
+                            <Link href='http://loja.rubihospitalar.com.br/'>Loja Online</Link>
                         </li>
                         <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='/contact'>Contatos</Link>
