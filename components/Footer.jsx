@@ -22,9 +22,15 @@ function Footer() {
             				/>
           				</a>
 						<div className="flex justify-center gap-6 pb-5">
+							<Link href='https://www.instagram.com/rubihospitalar/'> 
 							<FaInstagram className="text-2xl text-white cursor-pointer hover:text-gray-300" />
+							</Link>
+							<Link href='https://www.facebook.com/rubihospitalar'>
 							<FaFacebook className="text-2xl text-white cursor-pointer hover:text-gray-300" />
+							</Link>
+							<Link href='https://wa.me/5519996613747'>
 							<FaWhatsapp className="text-2xl text-white cursor-pointer hover:text-gray-300" />
+							</Link>
 						</div>
 					</ul>
 				</div>
