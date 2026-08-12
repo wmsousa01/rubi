@@ -27,7 +27,7 @@ const empresa = {
 	},
 
 	// E-mail precisa usar o mesmo domínio do site.
-	email: 'contato@rubihospitalar.com.br',
+	email: 'loja.mg@rubihospitalar.com.br',
 	site: 'https://www.rubihospitalar.com.br',
 
 	horarios: [
