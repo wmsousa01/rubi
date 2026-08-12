@@ -6,12 +6,6 @@ const empresa = {
 	razaoSocial: 'Rubi Comercio de Materiais Hospitalares LTDA',
 	cnpj: '19.074.620/0001-01',
 
-	inscricoesEstaduais: [
-		{ uf: 'SP', numero: '455.343.367.112' },
-		{ uf: 'SP', numero: '662.037.701.119' },
-		{ uf: 'MG', numero: '004105231.00-10' },
-	],
-
 	endereco: {
 		logradouro: 'Rua Chico de Paula',
 		numero: '349',
