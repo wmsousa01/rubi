@@ -97,11 +97,6 @@ function Footer() {
 						{empresa.nomeFantasia} — {empresa.razaoSocial}
 					</p>
 					<p>CNPJ: {empresa.cnpj}</p>
-					<p>
-						{empresa.inscricoesEstaduais
-							.map((ie) => `Inscrição Estadual ${ie.uf}: ${ie.numero}`)
-							.join(' | ')}
-					</p>
 					<p>{enderecoCompleto}</p>
 					<p>
 						Telefone: {empresa.telefone.exibicao} | E-mail: {empresa.email}
